@@ -5,7 +5,12 @@ const app = express();
 // --> 7)  Mount the Logger middleware here
 
 app.use('/', function middleware(req, res, next){
-  console.log("I'm a middleware...");
+
+  var meth = req.method;
+  var pth = req.path;
+  var iP = req.ip;
+  var logMessage = meth + ' ' + pth + ' - ' + iP;
+  console.log(logMessage);
   next();
 });
 
@@ -46,7 +51,15 @@ console.log("Hello World");
 
 
 /** 8) Chaining middleware. A Time server */
-
+  app.get('/now', function middleware(req, res, next){
+    // synchronous operation
+    const now = new Date();
+    req.time = now.getHours().toString() + ":" + now.getMinutes().toString() + ":" + now.getSeconds().toString();
+    next();
+  },
+  function(req, res) {
+    res.json({"time":req.time});
+  });
 
 /** 9)  Get input from client - Route parameters */
 
