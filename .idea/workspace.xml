@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../Javascript_scratch/src/recordCollection.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../freecodeCamp_npm/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/myApp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,6 +63,7 @@
           <entry key="ESLintLanguageService" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -282,16 +282,15 @@
       <workItem from="1536634941394" duration="240000" />
       <workItem from="1536635183987" duration="1460000" />
       <workItem from="1536638042442" duration="3665000" />
-      <workItem from="1536858712695" duration="6439000" />
+      <workItem from="1536858712695" duration="7053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11804000" />
+    <option name="totallyTimeSpent" value="12418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676377" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
