@@ -53,13 +53,11 @@ console.log("Hello World");
 
 /** 8) Chaining middleware. A Time server */
   app.get('/now', function middleware(req, res, next){
-    // synchronous operation
-    const now = new Date();
-    req.time = now.getHours().toString() + ":" + now.getMinutes().toString() + ":" + now.getSeconds().toString();
     next();
   },
   function(req, res) {
-    res.json({"time":req.time});
+    var now = new Date().toString();
+    res.json({time:now});
   });
 
 /** 9)  Get input from client - Route parameters */
